@@ -1,5 +1,5 @@
 
-
+require 'pry'
 class Book
   def initialize(title)
     @title = title
@@ -38,3 +38,6 @@ class Book
   end
  
 end
+
+binding.pry
+puts "goodbye"
