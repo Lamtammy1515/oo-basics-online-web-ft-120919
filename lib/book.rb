@@ -1,5 +1,5 @@
 
-require 'pry'
+
 class Book
   def initialize(title)
     @title = title
@@ -39,5 +39,3 @@ class Book
  
 end
 
-binding.pry
-puts "goodbye"
